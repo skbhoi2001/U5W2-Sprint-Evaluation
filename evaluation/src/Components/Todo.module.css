@@ -7,10 +7,10 @@
   text-decoration: none;
 }
 
-.environment {
+/* .environment {
   width: 80%;
   margin: 10%;
-}
+} */
 
 .elements {
   width: 50%;
@@ -20,4 +20,5 @@
 }
 .elements > button {
   height: 50px;
+  width: 100%;
 }

@@ -8,7 +8,14 @@ function TodoInput({ onTaskCreate }) {
   };
 
   const handleAdd = () => {
-    onTaskCreate(task);
+    if(task){
+      onTaskCreate(task);
+      setTask("")
+    }
+    else{
+      alert("Enter value")
+    }
+    
   };
 
   return (
