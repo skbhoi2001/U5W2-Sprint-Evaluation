@@ -1,0 +1,23 @@
+.line {
+  text-decoration: line-through;
+  color: green;
+}
+
+.normal {
+  text-decoration: none;
+}
+
+.environment {
+  width: 80%;
+  margin: 10%;
+}
+
+.elements {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+}
+.elements > button {
+  height: 50px;
+}
